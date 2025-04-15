@@ -65,7 +65,7 @@ export function RewardSelector() {
   }
 
   return (
-    <div className="container mx-auto flex min-h-screen max-w-3xl flex-col py-8">
+    <div className="w-full flex min-h-screen flex-col py-8 px-6 max-w-5xl mx-auto">
       <div className="mb-8 text-center">
         <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
           <Check className="h-6 w-6 text-primary" />

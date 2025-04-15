@@ -27,7 +27,7 @@ export default function AnalyticsPage() {
           Export Data
         </Button>
       </div>
-      <div className="flex flex-col gap-4 md:flex-row">
+      <div className="flex flex-col gap-4 md:flex-row w-full">
         <Card className="flex-1">
           <CardHeader className="pb-2">
             <CardTitle className="text-base">Total Responses</CardTitle>
@@ -115,7 +115,7 @@ export default function AnalyticsPage() {
           </Select>
         </div>
       </div>
-      <Tabs defaultValue="overview">
+      <Tabs defaultValue="overview" className="w-full">
         <TabsList>
           <TabsTrigger value="overview">Overview</TabsTrigger>
           <TabsTrigger value="responses">Responses</TabsTrigger>

@@ -28,7 +28,7 @@ export default function RewardsPage() {
           Add Vendor
         </Button>
       </div>
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4 w-full">
         <Card>
           <CardHeader className="pb-2">
             <CardTitle className="text-base">Active Vendors</CardTitle>
@@ -85,7 +85,7 @@ export default function RewardsPage() {
         </div>
         <Input placeholder="Search vendors..." className="max-w-sm" />
       </div>
-      <Tabs defaultValue="vendors">
+      <Tabs defaultValue="vendors" className="w-full">
         <TabsList>
           <TabsTrigger value="vendors">Vendors</TabsTrigger>
           <TabsTrigger value="rewards">Rewards</TabsTrigger>

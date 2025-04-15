@@ -36,7 +36,7 @@ export default function SurveyCompletionPage() {
   }
 
   return (
-    <div className="container mx-auto flex min-h-screen max-w-3xl flex-col py-8">
+    <div className="w-full flex min-h-screen flex-col py-8 px-6 max-w-5xl mx-auto">
       <div className="mb-8">
         <h1 className="text-3xl font-bold tracking-tight">Customer Satisfaction Survey</h1>
         <p className="text-muted-foreground">Help us improve our products and services with your feedback.</p>

@@ -24,7 +24,7 @@ export default function VendorPortalPage() {
   }
 
   return (
-    <div className="container mx-auto max-w-6xl py-8">
+    <div className="w-full py-8 px-6">
       <div className="mb-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
         <div>
           <h1 className="text-3xl font-bold tracking-tight">Vendor Portal</h1>

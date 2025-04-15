@@ -66,7 +66,7 @@ export default function DashboardLayout({
 
   return (
     <SidebarProvider>
-      <div className="flex min-h-screen">
+      <div className="flex min-h-screen w-full">
         <Sidebar>
           <SidebarHeader className="flex items-center gap-2 px-4 py-2">
             <Globe className="h-6 w-6" />
@@ -148,7 +148,7 @@ export default function DashboardLayout({
               </DropdownMenu>
             </div>
           </header>
-          <main className="flex-1 p-6">{children}</main>
+          <main className="flex-1 w-full p-6">{children}</main>
         </div>
       </div>
     </SidebarProvider>

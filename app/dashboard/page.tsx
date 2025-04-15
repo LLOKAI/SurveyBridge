@@ -23,7 +23,7 @@ export default function DashboardPage() {
           </Link>
         </Button>
       </div>
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4 w-full">
         <Card>
           <CardHeader className="flex flex-row items-center justify-between pb-2">
             <CardTitle className="text-sm font-medium">Active Surveys</CardTitle>
@@ -66,7 +66,7 @@ export default function DashboardPage() {
           </CardContent>
         </Card>
       </div>
-      <Tabs defaultValue="overview">
+      <Tabs defaultValue="overview" className="w-full">
         <TabsList>
           <TabsTrigger value="overview">Overview</TabsTrigger>
           <TabsTrigger value="analytics">Analytics</TabsTrigger>

@@ -23,7 +23,7 @@ export default function ExportPage() {
           <p className="text-muted-foreground">Download your survey data in various formats.</p>
         </div>
       </div>
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4 w-full">
         <Card>
           <CardHeader className="pb-2">
             <CardTitle className="text-base">Available Surveys</CardTitle>
@@ -58,7 +58,7 @@ export default function ExportPage() {
           </CardContent>
         </Card>
       </div>
-      <Tabs defaultValue="export">
+      <Tabs defaultValue="export" className="w-full">
         <TabsList>
           <TabsTrigger value="export">Export Options</TabsTrigger>
           <TabsTrigger value="history">Export History</TabsTrigger>
